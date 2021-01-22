@@ -25,11 +25,11 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#-about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -41,11 +41,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage / Customization</a></li>
+    <li><a href="#-usage--customization">Usage / Customization</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -53,9 +51,7 @@
 
 ## 📝 About The Project
 
----
-
-*Have you ever thought about automating your mac setup?* 🤔
+_Have you ever thought about automating your mac setup?_ 🤔
 
 The solution is here. This project allows you to automate most of the setup process for your fresh mac.
 
@@ -76,6 +72,12 @@ Check the full list of applications here: [Brewfile](/Brewfile)
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+3. Update Git config to include your name and email:
+
+```sh
+nano symlinks/git/.gitconfig
 ```
 
 ### Installation
@@ -121,11 +123,11 @@ caffeinate ~/.dotfiles/zero/setup
       <code>rm -rf ./symlinks/zsh</code>
     </li>
   </ol>
-</details>`
+</details>
 
 <!-- CONTRIBUTING -->
 
-## ❤️ Contributing
+## Contributing
 
 Any contributions you make are **greatly appreciated**.
 
