@@ -1,0 +1,3 @@
+[submodule "zero.sh"]
+	path = zero.sh
+	url = https://github.com/zero-sh/zero.sh.git
