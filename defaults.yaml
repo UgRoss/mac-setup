@@ -1,0 +1,53 @@
+NSGlobalDomain:
+  # Shaw hidden files in finder
+  AppleShowAllExtensions: true
+
+com.apple.dock:
+  # System Preferences > Dock > Size
+  tilesize: 42
+  # System Preferences > Dock > Automatically hide and show the Dock.
+  autohide: false
+
+com.apple.finder:
+  # Finder > View > Show view options > Sort Group By > Name.
+  FXArrangeGroupViewBy: Name
+
+  # Finder > Preferences > Advanced > When performing a search > Search the
+  # current folder.
+  FXDefaultSearchScope: SCcf
+
+  # Finder > View > Show view options > Group By > None.
+  FXPreferredGroupBy: None
+
+  # Finder > View > As List.
+  FXPreferredViewStyle: Nlsv
+
+  # Finder > Preferences > New Finder windows show > Home directory.
+  NewWindowTarget: PfHm
+
+  # Finder > Preferences > New Finder windows show > Home directory.
+  NewWindowTargetPath: 'file://${HOME}'
+
+  # Enable "Quit Finder" menu item.
+  QuitMenuItem: true
+
+com.apple.SoftwareUpdate:
+  # System Preferences > Software Update > Advanced... > Automatically check
+  # for updates.
+  AutomaticCheckEnabled: true
+
+  # System Preferences > Software Update > Advanced... > Download new updates
+  # when available.
+  AutomaticDownload: true
+
+com.apple.desktopservices:
+  # Disable .DS_Store files on network drives.
+  DSDontWriteNetworkStores: true
+
+  # Disable .DS_Store files on external drives.
+  DSDontWriteUSBStores: true
+
+com.apple.screensaver:
+  # Require password immediately after sleep or screen saver begins
+  askForPassword: 1
+  askForPasswordDelay: 0
