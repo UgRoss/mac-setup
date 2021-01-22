@@ -15,7 +15,7 @@
   <h3 align="center">Mac Setup</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    ⚙️ Automated Mac OS setup for front-end development.
     <br />
     <br />
     🐛 <a href="https://github.com/UgRoss/mac-setup/issues">Report Bug</a>
@@ -35,14 +35,13 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#-getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Usage / Customization</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -52,9 +51,15 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## 📝 About The Project
 
-⚙️ Automated Mac OS setup using zero.sh.
+---
+
+*Have you ever thought about automating your mac setup?* 🤔
+
+The solution is here. This project allows you to automate most of the setup process for your fresh mac.
+
+Check the full list of applications here: [Brewfile](/Brewfile)
 
 ### Built With
 
@@ -78,7 +83,7 @@
 1. Clone the repo
 
 ```sh
-git clone --recursive https://github.com/msanders/setup ~/.dotfiles
+git clone --recursive https://github.com/UgRoss/mac-setup.git ~/.dotfiles
 ```
 
 2. Start Mac setup
@@ -87,27 +92,40 @@ git clone --recursive https://github.com/msanders/setup ~/.dotfiles
 caffeinate ~/.dotfiles/zero/setup
 ```
 
-## Usage
+## 🛠 Usage / Customization
 
-You can modify and extend installation steps.
-
-#### Customize software to be installed
+#### Add or remove software to be installed:
 
 1. Open `Brewfile`
 2. Add or remove modules
 
 💡 You can find needed modules/apps on [brew.sh](https://brew.sh/)
 
-#### Install app that is not available in Brew
+#### Install app that is not available in Brew:
 
 1. Navigate to `run/after` folder.
 2. Create `.sh` file with desired name.
 3. Add installation script
 4. ✅ Done
 
+#### Other
+
+<details>
+  <summary>I don't want to use oh-my-zsh</summary>
+
+  <ol>
+    <li>
+      <code>rm -rf ./run/before/ohmyzsh_setup.sh</code>
+    </li>
+    <li>
+      <code>rm -rf ./symlinks/zsh</code>
+    </li>
+  </ol>
+</details>`
+
 <!-- CONTRIBUTING -->
 
-## Contributing
+## ❤️ Contributing
 
 Any contributions you make are **greatly appreciated**.
 
