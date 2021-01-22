@@ -1,0 +1,13 @@
+[user]
+	name = Rostyslav Ugryniuk
+	email = ug.ross@hotmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	whitespace = trailing-space,space-before-tab
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
