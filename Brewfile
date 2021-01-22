@@ -2,7 +2,6 @@ tap "homebrew/cask-fonts"
 tap "zero-sh/tap"
 
 brew "mas" # Mac App Store command-line interface | 🔗 https://github.com/mas-cli/mas
-brew "bash"
 brew "git" # Git | 🔗 https://git-scm.com/
 brew "gh" # GitHub CLI | 🔗 https://github.com/cli/cli
 brew "node" # Node.js | 🔗 https://nodejs.org/en/
