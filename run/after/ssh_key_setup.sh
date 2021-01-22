@@ -1,6 +1,7 @@
 #!/bin/sh
 set -o errexit -o nounset
 
+echo "Generating SSH key (~/.ssh/id_rsa)"
 # Generate SSH key
 # -N              new_passphrase provides the new passphrase.
 # -q              silence ssh-keygen.
