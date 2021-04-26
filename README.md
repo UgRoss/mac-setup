@@ -67,7 +67,7 @@ Check the full list of applications here: [Brewfile](/Brewfile)
 
 ### Prerequisites
 
-1. Install xcode using [App Store](https://apps.apple.com/us/app/xcode/id497799835)
+1. Install Xcode using [App Store](https://apps.apple.com/us/app/xcode/id497799835)
 2. Install [Brew](http://brew.sh/):
 
 ```sh

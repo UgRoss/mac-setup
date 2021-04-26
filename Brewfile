@@ -56,7 +56,7 @@ brew "font-monoid"
 mas "Xcode", id: 497799835
 mas "PDF Expert", id: 1055273043 # PDF Expert - PDF editor | 🔗 https://pdfexpert.com/
 mas "Spark Email App", id: 1176895641 # Spark - Email client | 🔗 https://sparkmailapp.com/
-mas "Magnet", id: 441258766 # Magnet - Arrange windows with shourtcuts | 💳 PAID | 🔗 https://apps.apple.com/us/app/magnet/id441258766
-mas "Noizio", id: 928871589 # Noizio - focus sounds | 💳 PAID | 🔗 https://noiz.io/
+mas "Magnet", id: 441258766 # Magnet - Arrange windows with shourtcuts | ❗️💳 PAID | 🔗 https://apps.apple.com/us/app/magnet/id441258766
+mas "Noizio", id: 928871589 # Noizio - focus sounds | ❗️💳 PAID | 🔗 https://noiz.io/
 mas "Bear", id: 1091189122 # Bear - Markdown notes | 🔗 https://bear.app/
 
