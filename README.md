@@ -74,7 +74,7 @@ Check the full list of applications here: [Brewfile](/Brewfile)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-3. Update Git config to include your name and email:
+3. Update Git config to include your name and email (once repo is clonned):
 
 ```sh
 nano symlinks/git/.gitconfig
@@ -91,7 +91,7 @@ git clone --recursive https://github.com/UgRoss/mac-setup.git ~/.dotfiles
 2. Start Mac setup
 
 ```sh
-caffeinate ~/.dotfiles/zero/setup
+caffeinate ~/.dotfiles/zero.sh/setup
 ```
 
 ## 🛠 Usage / Customization
