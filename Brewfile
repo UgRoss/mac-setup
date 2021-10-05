@@ -7,7 +7,6 @@ brew "gh" # GitHub CLI | 🔗 https://github.com/cli/cli
 brew "node" # Node.js | 🔗 https://nodejs.org/en/
 brew "nvm" # NVM - Node Version Manager | 🔗 https://github.com/nvm-sh/nvm
 brew "thefuck" # Helps to corrects previous console command. | 🔗 https://github.com/nvbn/thefuck
-brew "starship" # Customizable prompt for any shell! | 🔗 https://github.com/starship/starship
 brew "gitmoji" # Using emojis on commits. | 🔗 https://github.com/carloscuesta/gitmoji-cli
 brew "terminal-notifier" # Receive notifications from terminal | | 🔗 https://github.com/julienXX/terminal-notifier
 brew "wget" # Download anythings with wget | 🔗 https://www.gnu.org/software/wget/
@@ -15,7 +14,6 @@ brew "tldr" #  cheatsheets for console commands | 🔗  https://github.com/tldr-
 
 # 🌐 Browsers
 cask "google-chrome" # Google Chrome
-cask "firefox" # Firefox
 # 🖥 Developer Tools
 cask "github" # Github Desktop App | 🔗 https://desktop.github.com/
 cask "fork" # Git client | 🔗 https://git-fork.com/
@@ -25,7 +23,6 @@ cask "sublime-text" # Sublime Text | 🔗 https://www.sublimetext.com/
 cask "intellij-idea-ce" # Intellij IDEA | 🔗 https://www.jetbrains.com/idea/
 cask "mongodb-compass" # MongoDB Compass | 🔗 https://www.mongodb.com/products/compass
 cask "postman" # Postman - The Collaboration Platform for API Development | 🔗 https://www.postman.com/
-cask "altair-graphql-client" # Altair GraphQL Client helps you debug GraphQL queries and implementations | 🔗 https://altair.sirmuel.design/
 cask "docker" # Docker | 🔗 https://www.docker.com/
 # 🚀 Productivity
 cask "1password" # 1Password - Password manager | 🔗 https://1password.com/
