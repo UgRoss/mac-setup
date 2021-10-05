@@ -54,6 +54,11 @@ cask "appcleaner" # AppCleaner - uninstall unwanted apps | 🔗 https://freemacs
 # Other
 mas "Unsplash Wallpapers", id: 1284863847 # Unsplash Wallpapers - beautiful wallpapers | 🔗 https://unsplash.com/wallpapers 
 
+# 🌐 Safari extensions
+mas "AdGuard for Safari", id: 1440147259 # AdGuard for Safari - Ads blocker | 🔗 https://adguard.com/
+mas "Grammarly for Safari", id: 1462114288 # Grammarly for Safari - Online Writing Assistant | 🔗 https://app.grammarly.com/
+mas "Save to Raindrop.io", id: 1549370672 # Raindrop - All-in-one bookmark manager | 🔗 https://raindrop.io/
+
 # 🔠 FONTS
 brew "font-fira-code"
 brew "font-roboto"
