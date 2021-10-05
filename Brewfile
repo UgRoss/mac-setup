@@ -28,7 +28,6 @@ cask "docker" # Docker | 🔗 https://www.docker.com/
 cask "1password" # 1Password - Password manager | 🔗 https://1password.com/
 cask "skype" # Skype | 🔗 https://www.skype.com/
 cask "slack" # Slack | 🔗 https://slack.com/intl/en-ua/
-cask "kap" # Kap - an open-source screen recorder | 🔗 https://github.com/wulkano/Kap
 cask "figma" # Figma - the collaborative interface design tool | 🔗 https://www.figma.com 
 cask "maccy" # Maccy - macOS clipboard | 🔗 https://maccy.app/
 cask "muzzle" # Muzzle - app to silence notifications while screensharing | 🔗  https://muzzleapp.com/
