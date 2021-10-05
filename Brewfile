@@ -40,13 +40,10 @@ cask "appcleaner" # AppCleaner - uninstall unwanted apps | 🔗 https://freemacs
 
 # 🔠 FONTS
 brew "font-fira-code"
-brew "font-fira-code-nerd-font"
 brew "font-roboto"
 brew "font-jetbrains-mono"
 brew "font-hasklig"
 brew "font-source-code-pro"
-brew "font-ubuntu-mono"
-brew "font-monoid"
 
 
 mas "Xcode", id: 497799835
