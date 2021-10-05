@@ -34,6 +34,7 @@ cask "maccy" # Maccy - macOS clipboard | 🔗 https://maccy.app/
 cask "muzzle" # Muzzle - app to silence notifications while screensharing | 🔗  https://muzzleapp.com/
 cask "notion" # Notion - notes, tasks, wiki | 🔗 https://www.notion.so/
 cask "numi" # Numi - Beautiful calculator app for Mac | 🔗 https://numi.app/
+cask "raycast" # Raycast - Spotlight replacement | 🔗 https://www.raycast.com/
 mas "1Password 7 - Password Manager", id: 1333542190 # 1Password - Password manager | 🔗 https://1password.com/
 mas "Slack for Desktop", id: 803453959 # Slack | 🔗 https://slack.com/intl/en-ua/
 mas "Magnet", id: 441258766 # Magnet - Arrange windows with shourtcuts | ❗️💳 PAID | 🔗 https://apps.apple.com/us/app/magnet/id441258766
