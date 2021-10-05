@@ -7,7 +7,6 @@ brew "gh" # GitHub CLI | 🔗 https://github.com/cli/cli
 brew "node" # Node.js | 🔗 https://nodejs.org/en/
 brew "nvm" # NVM - Node Version Manager | 🔗 https://github.com/nvm-sh/nvm
 brew "thefuck" # Helps to corrects previous console command. | 🔗 https://github.com/nvbn/thefuck
-brew "starship" # Customizable prompt for any shell! | 🔗 https://github.com/starship/starship
 brew "gitmoji" # Using emojis on commits. | 🔗 https://github.com/carloscuesta/gitmoji-cli
 brew "terminal-notifier" # Receive notifications from terminal | | 🔗 https://github.com/julienXX/terminal-notifier
 brew "wget" # Download anythings with wget | 🔗 https://www.gnu.org/software/wget/
@@ -15,7 +14,7 @@ brew "tldr" #  cheatsheets for console commands | 🔗  https://github.com/tldr-
 
 # 🌐 Browsers
 cask "google-chrome" # Google Chrome
-cask "firefox" # Firefox
+
 # 🖥 Developer Tools
 cask "github" # Github Desktop App | 🔗 https://desktop.github.com/
 cask "fork" # Git client | 🔗 https://git-fork.com/
@@ -25,38 +24,44 @@ cask "sublime-text" # Sublime Text | 🔗 https://www.sublimetext.com/
 cask "intellij-idea-ce" # Intellij IDEA | 🔗 https://www.jetbrains.com/idea/
 cask "mongodb-compass" # MongoDB Compass | 🔗 https://www.mongodb.com/products/compass
 cask "postman" # Postman - The Collaboration Platform for API Development | 🔗 https://www.postman.com/
-cask "altair-graphql-client" # Altair GraphQL Client helps you debug GraphQL queries and implementations | 🔗 https://altair.sirmuel.design/
 cask "docker" # Docker | 🔗 https://www.docker.com/
+mas "Xcode", id: 497799835
+
 # 🚀 Productivity
-cask "1password" # 1Password - Password manager | 🔗 https://1password.com/
 cask "skype" # Skype | 🔗 https://www.skype.com/
-cask "slack" # Slack | 🔗 https://slack.com/intl/en-ua/
-cask "kap" # Kap - an open-source screen recorder | 🔗 https://github.com/wulkano/Kap
 cask "figma" # Figma - the collaborative interface design tool | 🔗 https://www.figma.com 
 cask "maccy" # Maccy - macOS clipboard | 🔗 https://maccy.app/
 cask "muzzle" # Muzzle - app to silence notifications while screensharing | 🔗  https://muzzleapp.com/
 cask "notion" # Notion - notes, tasks, wiki | 🔗 https://www.notion.so/
 cask "numi" # Numi - Beautiful calculator app for Mac | 🔗 https://numi.app/
+cask "raycast" # Raycast - Spotlight replacement | 🔗 https://www.raycast.com/
+mas "1Password 7 - Password Manager", id: 1333542190 # 1Password - Password manager | 🔗 https://1password.com/
+mas "Slack for Desktop", id: 803453959 # Slack | 🔗 https://slack.com/intl/en-ua/
+mas "Magnet", id: 441258766 # Magnet - Arrange windows with shourtcuts | ❗️💳 PAID | 🔗 https://apps.apple.com/us/app/magnet/id441258766
+mas "Noizio", id: 928871589 # Noizio - focus sounds | ❗️💳 PAID | 🔗 https://noiz.io/
+mas "Bear", id: 1091189122 # Bear - Markdown notes | 🔗 https://bear.app/
+mas "MeetingBar", id: 1532419400 # MeetingBar - shows your calendar events in the status bar | 🔗 https://github.com/leits/MeetingBar
+mas "Gifski", id: 1351639930 # Gifski - converts videos to high-quality GIFs | 🔗 https://gif.ski/
+mas "OpenIn - Advanced Link Handler", id: 1547147101 # OpenIn - select browser for each link | ❗️💳 PAID | 🔗 https://loshadki.app/openin/
+mas "PDF Expert", id: 1055273043 # PDF Expert - PDF editor | 🔗 https://pdfexpert.com/
+
 # 💬 Social
-cask "telegram" # Telegram - instant messaging | 🔗 https://telegram.org/
+mas "Telegram", id: 747648890 # Telegram - instant messaging | 🔗 https://telegram.org/
+
 # 🛠 Tools
 cask "appcleaner" # AppCleaner - uninstall unwanted apps | 🔗 https://freemacsoft.net/appcleaner/
 
+# Other
+mas "Unsplash Wallpapers", id: 1284863847 # Unsplash Wallpapers - beautiful wallpapers | 🔗 https://unsplash.com/wallpapers 
+
+# 🌐 Safari extensions
+mas "AdGuard for Safari", id: 1440147259 # AdGuard for Safari - Ads blocker | 🔗 https://adguard.com/
+mas "Grammarly for Safari", id: 1462114288 # Grammarly for Safari - Online Writing Assistant | 🔗 https://app.grammarly.com/
+mas "Save to Raindrop.io", id: 1549370672 # Raindrop - All-in-one bookmark manager | 🔗 https://raindrop.io/
+
 # 🔠 FONTS
 brew "font-fira-code"
-brew "font-fira-code-nerd-font"
 brew "font-roboto"
 brew "font-jetbrains-mono"
 brew "font-hasklig"
 brew "font-source-code-pro"
-brew "font-ubuntu-mono"
-brew "font-monoid"
-
-
-mas "Xcode", id: 497799835
-mas "PDF Expert", id: 1055273043 # PDF Expert - PDF editor | 🔗 https://pdfexpert.com/
-mas "Spark Email App", id: 1176895641 # Spark - Email client | 🔗 https://sparkmailapp.com/
-mas "Magnet", id: 441258766 # Magnet - Arrange windows with shourtcuts | ❗️💳 PAID | 🔗 https://apps.apple.com/us/app/magnet/id441258766
-mas "Noizio", id: 928871589 # Noizio - focus sounds | ❗️💳 PAID | 🔗 https://noiz.io/
-mas "Bear", id: 1091189122 # Bear - Markdown notes | 🔗 https://bear.app/
-
